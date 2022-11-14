@@ -15,6 +15,8 @@ import { RegisterComponent } from './form-login/register/register.component';
 import { ProfileComponent } from './profile/profile/profile.component';
 import { VideoComponent } from './profile/video/video.component';
 import { FriendsComponent } from './profile/friends/friends.component';
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { FriendsComponent } from './profile/friends/friends.component';
     MatDividerModule,
     MatInputModule,
     MatButtonModule,
+    MatPaginatorModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
